@@ -45,7 +45,7 @@ function LodgingPage() {
 				<img className="img-hotel-left" src={hotel2} />
 			</div>
 
-			<div className="img-container">
+			<div className="img-container" style={{marginBottom:"-5%"}}>
 				<img className="img-hotel-right" src={hotel3} />
 				<section>
 					<p>

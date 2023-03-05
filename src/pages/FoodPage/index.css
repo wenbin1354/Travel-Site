@@ -1,0 +1,17 @@
+.food {
+	display: flex;
+	flex-direction: column;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(112, 190, 230, 0.2);
+	background-color: rgba(11, 239, 243, 0.1);
+	display: flex;
+	margin: auto;
+	width: 80%;
+	height: 20rem;
+	margin-bottom: 5%;
+}
+
+.card > img {
+	margin-right: 3%;
+}

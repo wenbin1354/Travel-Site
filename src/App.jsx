@@ -14,16 +14,13 @@ function App() {
 					<Route path="lodging" element={<LodgingPage />} />
 					<Route path="foods" element={<FoodPage />} />
 					<Route path="attractions" element={<AttractionPage />} />
-
-					{/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
 					<Route path="*" element={<NoMatch />} />
 				</Route>
 			</Routes>
 		</div>
 	);
 }
+
 function NoMatch() {
 	return (
 		<div>
