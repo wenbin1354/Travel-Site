@@ -1,0 +1,36 @@
+
+.img-header {
+	height: 30vh;
+	width: 100%;
+    margin-bottom: 2rem;
+}
+
+.img-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.img-container > section{
+    width: 40%;
+    height: 50%;
+    font-size: large;
+}
+
+.img-container > .img-hotel-left{
+    width: 50%;
+    height: 50%;
+    margin-left: 5%;
+}
+
+.img-container > .img-hotel-right{
+    width: 50%;
+    height: 50%;
+    margin-right: 5%;
+}
+
+.img-container > section > p{
+    margin-bottom: 5%;
+}
