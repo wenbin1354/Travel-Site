@@ -15,3 +15,7 @@
 .card > img {
 	margin-right: 3%;
 }
+
+.card-container > h1{
+	color:green;
+}
